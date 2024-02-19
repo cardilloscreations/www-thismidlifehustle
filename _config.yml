@@ -1,0 +1,109 @@
+#
+# Configuration File
+#
+
+# Enable additional diagnostics
+verbose: true
+profile: true
+
+# Information for compile
+exclude:
+  - "Gemfile"
+  - "CNAME"
+  - "LICENSE"
+  - "README.md"
+  - "_posts/README.md"
+  - "*.js"
+  - "*.json"
+  - "assets/images/favicon/*.webmanifest"
+  - "assets/images/favicon/*.md"
+  - "assets/images/favicon/*.html"
+  - "assets/images/favicon/*.xml"
+
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-archives
+
+# Sass configuration
+sass:
+  sass_dir: _scss
+
+# See GitHub repo for jekyll-archives for more information:
+# https://github.com/jekyll/jekyll-archives/
+jekyll-archives:
+  enabled: [categories, tags]
+  layout: archive
+  permalinks:
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+
+# Information for deploy
+baseurl: ""
+
+# the base hostname & protocol for your site
+url: https://thismidlifehustle.com
+
+assets_path:  assets
+css_path:     assets/css
+images_path:  assets/images
+
+##
+## HEADER INFORMATION
+##
+
+# This is the site title
+title: This Midlife Hustle (podcast)
+# This is the site description - must be between 25 and 160 characters for Bing SEO
+description: >
+  Lisa and Ray share the ups and downs in their journey towards financial freedom.
+  Learn from them, laugh at them, and be entertained and informed!
+
+# Website language
+lang: en-US
+# Header Title
+header-title: This Midlife Hustle
+# Header Tagline
+header-tagline1: Ray & Lisa's Journey
+header-tagline2: Pursuing Financial Freedom
+
+# The general contact default email address
+email: hello@thismidlifehustle.com
+
+##
+## Global Social Links
+##
+facebook: https://www.facebook.com/ThisMidlifeHustle/
+instagram: https://www.instagram.com/ThisMidlifeHustle/
+tiktok: https://www.tiktok.com/@ThisMidlifeHustle
+youtube: https://www.youtube.com/@ThisMidlifeHustle
+acast: https://shows.acast.com/this-midlife-hustle
+amazonpodcasts: https://music.amazon.com/podcasts/8cfbd3ed-a469-4200-8b0f-e889809f9182/this-midlife-hustle
+applepodcasts: https://podcasts.apple.com/us/podcast/this-midlife-hustle/id1731959638
+spotifypodcasts: https://open.spotify.com/show/50QzEsx0i3ohyYYc4A4NS7
+
+##
+## Global Images
+##
+image: default.webp
+facebook-image: icons/facebook.svg
+instagram-image: icons/instagram.svg
+twitterx-image: icons/twitterx.svg
+tiktok-image: icons/tiktok.svg
+youtube-image: icons/youtube.svg
+linkedin-image: icons/linkedin.svg
+email-image: icons/email.svg
+pinterest-image: icons/pinterest.svg
+shop-image: icons/shop.svg
+amazon-image: icons/amazon.svg
+acast-image: icons/acast.svg
+spotify-image: icons/spotify.svg
+applepodcasts-image: icons/applepodcasts.svg
+
+##
+## Footer
+##
+footer-description: Find us on social media.
+footer-copyright-text: Cardillo's Creations, LLC
+footer-copyright-year: 2024

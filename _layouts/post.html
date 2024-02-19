@@ -1,0 +1,56 @@
+---
+layout: page
+---
+
+<div class="post-full">
+  <article class="vlog-article vlog-single-page clearfix">
+
+    <!-- Article Header -->
+    <header class="article-header">
+      {% if page.image %}
+      <div class="img-wrap">
+        <img src="{{ site.baseurl }}/assets/images/vlog/{{ page.image }}" alt="Article Video Log Image">
+      </div>
+      {% endif %}
+    </header>
+
+    <div class="article-content">
+      {{ content }}
+    </div>
+
+    <div class="article-boxes">
+      <div class="box">
+        <span class="title">Categories:</span>
+        {% assign cats_list = page.categories %}
+        {% if cats_list.first[0] == null %}
+          {%- for cat in cats_list -%}
+            {%- if forloop.first != true -%}, {% endif %}
+            <a href="{{ site.baseurl }}/category/{{ cat | slugify }}">{{ cat }}</a>
+          {%- endfor -%}
+        {% else %}
+          {%- for cat in cats_list -%}
+          {%- if forloop.first != true -%}, {% endif %}
+          <a href="{{ site.baseurl }}/category/{{ cat[0] | slugify }}">{{ cat[0] }}</a>
+          {%- endfor -%}
+        {% endif %}
+        {% assign cats_list = nil %}
+      </div>
+      <div class="box">
+        <span class="title">Tags:</span>
+        {% assign tags_list = page.tags %}
+        {% if tags_list.first[0] == null %}
+          {%- for tag in tags_list -%}
+          {%- if forloop.first != true -%}, {% endif %}
+          <a href="{{ site.baseurl }}/tag/{{ tag | slugify }}">{{ tag }}</a>
+          {%- endfor -%}
+        {% else %}
+          {%- for tag in tags_list -%}
+          {%- if forloop.first != true -%}, {% endif %}
+          <a href="{{ site.baseurl }}/tag/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+          {%- endfor -%}
+        {% endif %}
+        {% assign tags_list = nil %}
+      </div>
+    </div>
+  </article>
+</div>

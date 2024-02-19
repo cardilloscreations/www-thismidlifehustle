@@ -1,0 +1,31 @@
+<!DOCTYPE html >
+<html lang="{{ site.lang }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {%- include header/nav-bar.html -%}
+
+    {% include header/header-slim.html %}
+
+    <section class="site-section vlog-section page-layout" id="start">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 d-none d-md-block">
+            {% include sidebar.html %}
+          </div>
+          <div class="col-md-8 vlog-articles-container">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% include footer.html %}
+
+    {%- include scripts/ext-scripts.html -%}
+
+  </body>
+
+</html>
