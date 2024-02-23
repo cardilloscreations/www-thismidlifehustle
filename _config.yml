@@ -12,6 +12,7 @@ exclude:
   - "CNAME"
   - "LICENSE"
   - "README.md"
+  - "DEVELOPMENT.md"
   - "_posts/README.md"
   - "*.js"
   - "*.json"
@@ -19,7 +20,6 @@ exclude:
   - "assets/images/favicon/*.md"
   - "assets/images/favicon/*.html"
   - "assets/images/favicon/*.xml"
-
 
 # Plugins
 plugins:
