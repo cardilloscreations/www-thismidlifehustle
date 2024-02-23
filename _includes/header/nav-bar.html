@@ -24,7 +24,7 @@
           class="nav-link active" aria-current="page"
           {% else %}
           class="nav-link"
-          {% endif -%} href="{{ site.baseurl }}/streams">Streams</a>
+          {% endif -%} href="{% link streams.html %}">Streams</a>
         </li>
         <li class="nav-item">
           <a
@@ -32,7 +32,7 @@
           class="nav-link active" aria-current="page"
           {% else %}
           class="nav-link"
-          {% endif -%} href="{{ site.baseurl }}/links"
+          {% endif -%} href="{% link links.html %}"
           >Links</a>
         </li>
       </ul>
