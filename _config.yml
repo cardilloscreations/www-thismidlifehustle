@@ -82,24 +82,28 @@ acast: https://shows.acast.com/this-midlife-hustle
 amazonpodcasts: https://music.amazon.com/podcasts/8cfbd3ed-a469-4200-8b0f-e889809f9182/this-midlife-hustle
 applepodcasts: https://podcasts.apple.com/us/podcast/this-midlife-hustle/id1731959638
 spotifypodcasts: https://open.spotify.com/show/50QzEsx0i3ohyYYc4A4NS7
+patreon: https://patreon.com/ThisMidlifeHustle
+jungle-scout-affiliate: https://get.junglescout.com/ybefi0j5fwyu
 
 ##
 ## Global Images
 ##
-image: default.webp
-facebook-image: icons/facebook.svg
-instagram-image: icons/instagram.svg
-twitterx-image: icons/twitterx.svg
-tiktok-image: icons/tiktok.svg
-youtube-image: icons/youtube.svg
-linkedin-image: icons/linkedin.svg
-email-image: icons/email.svg
-pinterest-image: icons/pinterest.svg
-shop-image: icons/shop.svg
-amazon-image: icons/amazon.svg
-acast-image: icons/acast.svg
-spotify-image: icons/spotify.svg
-applepodcasts-image: icons/applepodcasts.svg
+default-image: default.webp
+facebook-icon: icons/facebook.svg
+instagram-icon: icons/instagram.svg
+twitterx-icon: icons/twitterx.svg
+tiktok-icon: icons/tiktok.svg
+youtube-icon: icons/youtube.svg
+linkedin-icon: icons/linkedin.svg
+email-icon: icons/email.svg
+pinterest-icon: icons/pinterest.svg
+shop-icon: icons/shop.svg
+amazon-icon: icons/amazon.svg
+acast-icon: icons/acast.svg
+spotify-icon: icons/spotify.svg
+applepodcasts-icon: icons/applepodcasts.svg
+patreon-icon: icons/patreon.svg
+jungle-scout-icon: icons/junglescout.svg
 
 ##
 ## Footer
