@@ -89,15 +89,15 @@ jungle-scout-affiliate: https://get.junglescout.com/ybefi0j5fwyu
 ## Global Images
 ##
 default-image: default.webp
+email-icon: icons/email.svg
+shop-icon: icons/shop.svg
 facebook-icon: icons/facebook.svg
 instagram-icon: icons/instagram.svg
 twitterx-icon: icons/twitterx.svg
 tiktok-icon: icons/tiktok.svg
 youtube-icon: icons/youtube.svg
 linkedin-icon: icons/linkedin.svg
-email-icon: icons/email.svg
 pinterest-icon: icons/pinterest.svg
-shop-icon: icons/shop.svg
 amazon-icon: icons/amazon.svg
 acast-icon: icons/acast.svg
 spotify-icon: icons/spotify.svg
